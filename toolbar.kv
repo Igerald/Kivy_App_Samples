@@ -1,0 +1,30 @@
+<SampGridLayout>:
+    rows: 2
+
+    BoxLayout:
+        size_hint_y: None
+        height: 40
+        spacing: 1
+
+        canvas:
+            Color:
+                rgba: 1,1,1,1
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        
+        Button:
+            background_normal: "but1.png"
+            background_down: "but4.png"
+            size_hint_x: None
+            width: 30
+        Button:
+            background_normal: "but2.png"
+            background_down: "but4.png"
+            size_hint_x: None
+            width: 30
+        Button:
+            background_normal: "but3.png"
+            background_down: "but4.png"
+            size_hint_x: None
+            width: 30
